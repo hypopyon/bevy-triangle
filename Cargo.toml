@@ -9,5 +9,10 @@ bevy = { version = "0.8.0", default-features = false, features = [
     "bevy_render",
     "bevy_core_pipeline",
     "bevy_winit",
+    "png"
 ] }
+bevy_rapier3d = "0.16.0"
+bevy_flycam = "0.8.1"
 wgpu = "0.13.1"
+bytemuck = "1.11.0"
+bytemuck_derive = "1.1.1"
